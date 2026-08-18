@@ -11,7 +11,8 @@ for i in range(1, 11):
 
 #Else в циклі
 for i in "Hello World":
-    if i == "n":
+    print(i)
+    if i == "l":
         print("Done")
         break
 else:
