@@ -14,6 +14,9 @@ def info(word):
     print(word, end='')
     print('!')
 
+func = lambda x, y: x * y
+print(func(5, 6))
+
 def summa(a, b):
     res = a + b
     info(res)
